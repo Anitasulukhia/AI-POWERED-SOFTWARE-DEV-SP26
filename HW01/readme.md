@@ -1,4 +1,6 @@
-The program loads the API key from a `.env` file, sends
+## what does this program do?
+
+The program loads the API key from a .env file, sends
 the same philosophical question about consciousness to both gemini-3-flash-preview and
 gemini-3.1-flash-lite-preview, and prints the responses returned by each model.
 
@@ -9,6 +11,8 @@ equivalent paid cost based on the official pricing per million tokens.
 The results are collected into a pandas DataFrame and exported below as a
 table.
 
+## what surprised me:
+
 What surprised me in this experiment the most was how similar the overall reasoning of the two models
 was even though they are different variants. Both models structured their answers
 into philosophical perspectives, referencing similar philosophical ideas like functionalism and 
@@ -18,7 +22,7 @@ model was actually slower than the lite model in this run, which I did not expec
 given that it is described as the faster model. 
 
 
-## Token Usage and Cost Analysis
+## Token Usage and Cost Analysis:
 
 |   Call | Model                         |   Input Tokens |   Output Tokens |   Total Tokens |   Latency (ms) |   Cost (paid equiv.) |
 |-------:|:------------------------------|---------------:|----------------:|---------------:|---------------:|---------------------:|
