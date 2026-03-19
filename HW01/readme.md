@@ -21,6 +21,9 @@ ethical questions. also noticed that the gemini-3-flash-preview
 model was actually slower than the lite model in this run, which I did not expect 
 given that it is described as the faster model. 
 
+## How to run it:
+
+just provide valid API key in .env file, and run the main.py file.
 
 ## Token Usage and Cost Analysis:
 
