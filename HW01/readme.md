@@ -23,7 +23,7 @@ given that it is described as the faster model.
 
 ## How to run it:
 
-just provide valid API key in .env file, and run the main.py file.
+just provide valid API key in .env file, and run the main.py file. NOTE: you should also include readme.md file since main does access it and will fail if it is not present.
 
 ## Token Usage and Cost Analysis:
 
